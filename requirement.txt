@@ -1,0 +1,31 @@
+# 🤖 AI Web Scraper - Dependencies
+# ================================
+# 
+# This file lists all the Python packages needed to run the AI Web Scraper.
+# Install all dependencies with: pip install -r requirements.txt
+#
+# Each package has a specific purpose in our scraping and AI pipeline:
+
+# 🌐 Web Interface & User Experience
+streamlit>=1.28.0          # Beautiful web interface framework
+
+# 🤖 AI & Language Processing  
+langchain>=0.1.0           # AI/LLM framework for intelligent processing
+langchain-ollama>=0.1.0    # Ollama integration for local AI models
+langchain-core>=0.1.0      # Core LangChain functionality
+
+# 🕷️ Web Scraping & Browser Automation
+selenium>=4.15.0           # Browser automation for complex sites
+webdriver-manager>=4.0.0   # Automatic ChromeDriver management
+requests>=2.31.0           # Fast HTTP requests for simple scraping
+
+# 📄 HTML & Content Processing
+beautifulsoup4>=4.12.0     # HTML parsing and content extraction
+lxml>=4.9.0               # Fast XML/HTML parser
+html5lib>=1.1             # Pure Python HTML5 parser
+
+# ⚙️ Configuration & Utilities
+python-dotenv>=1.0.0      # Environment variable management
+
+# Note: You'll also need Ollama installed separately for AI functionality
+# Download from: https://ollama.ai

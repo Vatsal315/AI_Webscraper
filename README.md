@@ -16,21 +16,6 @@ A powerful, intelligent web scraper that lets you extract specific information f
 - **Multiple LLM models**: Support for Llama, Mistral, and other Ollama models
 - **Context-aware**: Understands the content and extracts relevant information
 
-### 🎯 **Quick Templates**
-Pre-built extraction templates for common use cases:
-- 📞 **Contact Information** - emails, phones, addresses
-- 🔗 **Links & URLs** - all links with anchor text
-- 📰 **Content** - headlines, articles, summaries
-- 💼 **Business Data** - products, prices, services
-- 🏢 **Company Info** - about pages, team members
-- 📱 **Social Media** - profiles, handles, links
-
-### 🛡️ **Robust & Reliable**
-- **Error handling**: Graceful failures with helpful error messages
-- **Progress tracking**: Visual feedback during long operations
-- **Content validation**: Checks and cleans extracted data
-- **Token optimization**: Smart content chunking for LLM processing
-
 ## 🚀 Quick Start
 
 ### Prerequisites
@@ -98,31 +83,6 @@ The core of our system uses LangChain's text processing capabilities combined wi
 ### Optional: Advanced DOM Content Analysis
 An advanced feature explains how to leverage the structured DOM parsing capabilities to extract complex data relationships, nested content structures, and metadata from websites, providing comprehensive content analysis beyond simple text extraction.
 
-## 🌐 Great Test URLs
-
-Try these websites to see the scraper in action:
-
-### 📰 **News & Articles**
-- `https://news.ycombinator.com` - Tech news and discussions
-- `https://techcrunch.com` - Technology news and startups
-- `https://dev.to` - Developer articles and tutorials
-
-### 🛒 **E-commerce & Products**
-- `https://quotes.toscrape.com` - Great for testing quote extraction
-- `https://books.toscrape.com` - Book titles, prices, and ratings
-- `https://httpbin.org/html` - Simple HTML structure for testing
-
-### 🏢 **Business & Services**
-- `https://github.com` - Developer profiles and repositories
-- `https://stackoverflow.com` - Q&A content and user profiles
-- `https://example.com` - Simple page for basic testing
-
-### 🎓 **Educational & Tutorials**
-- `https://w3schools.com` - Tutorials and code examples
-- `https://mdn.mozilla.org` - Web development documentation
-- `https://freecodecamp.org` - Coding courses and articles
-
-## 🛠️ Technical Details
 
 ### Architecture
 
@@ -136,25 +96,6 @@ Try these websites to see the scraper in action:
 └─────────────────┘    └──────────────────┘    └─────────────────┘
 ```
 
-### Key Components
-
-#### `scrape.py` - Web Scraping Engine
-- **Multi-method scraping**: HTTP requests + Selenium fallback
-- **Anti-detection features**: User agents, stealth mode
-- **Content cleaning**: Removes unnecessary elements
-- **Error handling**: Robust failure management
-
-#### `parse.py` - AI-Powered Parser
-- **Natural language understanding**: Converts descriptions to extraction logic
-- **Content analysis**: Suggests extraction possibilities
-- **LLM integration**: Uses Ollama for intelligent parsing
-- **Result formatting**: Clean, structured output
-
-#### `app.py` - User Interface
-- **Intuitive design**: Clean, modern Streamlit interface
-- **Progress feedback**: Real-time operation status
-- **Smart suggestions**: AI-generated extraction ideas
-- **Result visualization**: Multiple output formats
 
 ### Supported Models
 
@@ -296,6 +237,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Selenium** - For robust web automation
 - **BeautifulSoup** - For HTML parsing capabilities
 
-**Made with ❤️ by Vatsal 
+Made with ❤️ by Vatsal 
 
 *Happy scraping! 🚀*
